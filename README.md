@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# Delhi Sundae's
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sundae's delivery shop where users can choose ice cream flavors with toppings and submit an order.
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/francislagares/delhi-sundaes/CI?style=for-the-badge&labelColor=black&logo=github)
+
+# Built with
+
+<p>
+  <a href='https://www.react.org/'>
+		<img src='https://img.shields.io/badge/react-61DAFB?logoWidth=30&labelColor=black&style=for-the-badge&logo=react' />
+	</a>
+  &nbsp;
+  <a href='https://www.typescriptlang.org/'>
+    <img src="https://img.shields.io/badge/typescript-007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" />
+  </a>
+  &nbsp;
+</p>
+
+## Status
+
+Currently: _in development_
+
+
+# Development
 
 ## Available Scripts
 
-In the project directory, you can run:
+- Clone the repo
 
-### `yarn start`
+  ```bash
+  $ git clone https://github.com/francislagares/delhi-sundaes.git
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Install the dependencies by running the following command.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  ```bash
+  yarn install
+  ```
 
-### `yarn test`
+- Start the development server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ```bash
+  yarn start
+  ```
 
-### `yarn build`
+  Open [http://localhost:3000](http://localhost:3000) with your browser to see the
+  result.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Docker
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Building an image
 
-### `yarn eject`
+  ```bash
+  $ docker-compose build
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Running a container
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ```bash
+  $ docker-compose up
+  ```
+  Open [http://localhost:3000](http://localhost:3000) with your browser to see the
+  result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Stopping a container
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ```bash
+  $ docker-compose down
+  ```
+# Author
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Created by [@francislagares](https://www.linkedin.com/in/francislagares/) - feel free to contact me!
+* 
