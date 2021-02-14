@@ -1,6 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react';
 import { rest } from 'msw';
-import { server } from '../__tests__/mocks/server';
+import { server } from '../mocks/server';
 import OrderEntry from '../pages/entry/OrderEntry';
 
 describe('Error Handlers', () => {
